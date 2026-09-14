@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, Banknote, Gavel, HeartHandshake, Laptop, Megaphone, Network, Users } from "lucide-react";
+import { ArrowRight, Banknote, Gavel, HeartHandshake, Laptop, Megaphone, Network } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PageIntro, SectionHeading } from "@/components/site-shell";
 import seedlings from "@/assets/wctc-seedlings.png.asset.json";
@@ -12,11 +12,11 @@ export const Route = createFileRoute("/services")({ head: () => ({ meta: [
 const groups = [
   [HeartHandshake,"Fiscal sponsorship",["Tax exemption","Legal and financial sponsorship","Administrative management","Program development support"]],
   [Banknote,"Finance",["Financial reporting","Budget and cash flow management","Payroll and taxes"]],
-  [Gavel,"Legal review",["Federal and state compliance","Contract and grant review","Specialist referrals","Spin-off support"]],
+  [Gavel,"Compliance",["Federal and state compliance","Contract and grant review","Specialist referrals","Spin-off support"]],
   [Laptop,"Information technology",["Donor and prospect CRM","Online donation integration","Domain, email, and website support"]],
   [Network,"Consulting",["Strategic planning","Board and leadership development","Capacity development","Advancement and funding"]],
   [Megaphone,"Digital marketing",["Social media","Messaging","Communications strategy"]],
-  [Users,"Fundraising & people",["Grant and crowdfunding management","Prospect research","HR policy and payroll","Staff resolution and mediation"]],
+  
 ] as const;
 
 function ServicesPage() { return <>
