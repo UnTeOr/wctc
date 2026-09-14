@@ -91,7 +91,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
           </div>
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.16em] text-coral">Contact</p>
-            <a className="mt-4 block text-sm hover:text-coral" href="mailto:jay@wc.tc">jay@wc.tc</a>
+            <a className="mt-4 block text-sm hover:text-coral" href="mailto:hello@wctc.world">hello@wctc.world</a>
             <a className="mt-2 block text-sm hover:text-coral" href="tel:+14153235833">415-323-5833</a>
           </div>
           <div>
