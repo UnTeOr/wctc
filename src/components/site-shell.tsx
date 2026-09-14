@@ -90,12 +90,12 @@ export function SiteShell({ children }: { children: ReactNode }) {
             </p>
           </div>
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-coral">Contact</p>
-            <a className="mt-4 block text-sm hover:text-coral" href="mailto:hello@wctc.world">hello@wctc.world</a>
-            <a className="mt-2 block text-sm hover:text-coral" href="tel:+14153235833">415-323-5833</a>
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-gold">Contact</p>
+            <a className="mt-4 block text-sm hover:text-gold" href="mailto:hello@wctc.world">hello@wctc.world</a>
+            <a className="mt-2 block text-sm hover:text-gold" href="tel:+14153235833">415-323-5833</a>
           </div>
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.16em] text-coral">Mail</p>
+            <p className="text-xs font-bold uppercase tracking-[0.16em] text-gold">Mail</p>
             <p className="mt-4 text-sm leading-6 text-forest-muted">PO Box 20175<br />Stanford, CA 94309</p>
           </div>
         </div>
@@ -114,7 +114,7 @@ export function PageIntro({ eyebrow, title, copy, image, imageAlt }: { eyebrow: 
       <div className="absolute inset-0 bg-hero-wash" />
       <div className="relative mx-auto flex min-h-[55vh] max-w-7xl items-end px-5 pb-14 pt-28 lg:px-10 lg:pb-20">
         <div className="max-w-3xl animate-rise">
-          <p className="text-xs font-bold uppercase tracking-[0.2em] text-coral">{eyebrow}</p>
+          <p className="text-xs font-bold uppercase tracking-[0.2em] text-gold">{eyebrow}</p>
           <h1 className="mt-4 font-display text-5xl leading-[1.02] font-semibold sm:text-6xl lg:text-7xl">{title}</h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-forest-soft sm:text-xl">{copy}</p>
         </div>
