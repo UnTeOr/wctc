@@ -3,6 +3,7 @@ import { ArrowUpRight, Menu, X } from "lucide-react";
 import { useState, type ReactNode } from "react";
 
 import { Button } from "@/components/ui/button";
+import logoAsset from "@/assets/WCTClogo.png.asset.json";
 
 const navigation = [
   { label: "Home", to: "/" },
@@ -20,22 +21,25 @@ export function SiteShell({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <header className="sticky top-0 z-50 border-b border-border/70 bg-background/95 backdrop-blur">
-        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-10">
-          <Link to="/" className="group max-w-[245px] leading-tight sm:max-w-none" onClick={() => setOpen(false)}>
-            <span className="block font-display text-[1.05rem] font-semibold text-foreground sm:text-xl">
-              World Collaborative
-            </span>
-            <span className="block text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-muted-foreground sm:text-[0.68rem]">
-              for Transformative Community
+        <div className="mx-auto flex h-24 max-w-7xl items-center justify-between gap-4 px-5 lg:px-10">
+          <Link to="/" className="group flex min-w-0 items-center gap-3 leading-tight" onClick={() => setOpen(false)}>
+            <img src={logoAsset.url} alt="WC.TC" className="size-16 shrink-0 object-contain" />
+            <span className="hidden max-w-[210px] sm:block min-[900px]:hidden min-[1120px]:block">
+              <span className="block font-display text-lg font-semibold text-foreground">
+                World Collaborative
+              </span>
+              <span className="block text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+                for Transformative Community
+              </span>
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-1 lg:flex" aria-label="Main navigation">
+          <nav className="hidden items-center gap-0 min-[900px]:flex" aria-label="Main navigation">
             {navigation.map((item) => (
               <Link
                 key={item.to}
                 to={item.to}
-                className={`px-4 py-3 text-sm font-semibold transition-colors ${pathname === item.to ? "text-primary" : "text-muted-foreground hover:text-foreground"}`}
+                className={`border-b-2 px-3 py-3 text-sm font-semibold transition-colors xl:px-4 ${pathname === item.to ? "border-primary text-primary" : "border-transparent text-muted-foreground hover:border-border hover:text-foreground"}`}
               >
                 {item.label}
               </Link>
@@ -45,7 +49,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
           <Button
             variant="ghost"
             size="icon"
-            className="lg:hidden"
+            className="min-[900px]:hidden"
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             onClick={() => setOpen((value) => !value)}
@@ -55,7 +59,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
         </div>
 
         {open && (
-          <nav className="border-t border-border bg-background px-5 py-4 lg:hidden" aria-label="Mobile navigation">
+          <nav className="border-t border-border bg-background px-5 py-4 min-[900px]:hidden" aria-label="Mobile navigation">
             <div className="mx-auto grid max-w-7xl">
               {navigation.map((item) => (
                 <Link
@@ -77,7 +81,10 @@ export function SiteShell({ children }: { children: ReactNode }) {
       <footer className="border-t border-border bg-forest text-forest-foreground">
         <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr] lg:px-10">
           <div>
-            <p className="font-display text-2xl font-semibold">WCTC</p>
+            <div className="flex items-center gap-3">
+              <img src={logoAsset.url} alt="WC.TC" className="size-16 rounded-full bg-background object-contain" />
+              <p className="font-display text-2xl font-semibold">WCTC</p>
+            </div>
             <p className="mt-3 max-w-sm text-sm leading-6 text-forest-muted">
               Helping communities share resources, strengthen ideas, and create lasting social change.
             </p>
