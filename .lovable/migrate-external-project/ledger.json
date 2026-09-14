@@ -1,14 +1,68 @@
 {
   "source": "http://wctc.world",
   "capabilities": [
-    {"capability":"site pages and navigation","source":"published Wix site","outcome":"rebuild","status":"planned","next_action":"create six TanStack routes and shared navigation"},
-    {"capability":"content and imagery","source":"published Wix site and uploaded images","outcome":"preserve","status":"planned","next_action":"recreate nonprofit copy with supplied visual assets"},
-    {"capability":"contact","source":"published Wix site","outcome":"preserve","status":"planned","next_action":"provide email and telephone contact actions without server-side storage"},
-    {"capability":"database records","source":"published Wix site","outcome":"not applicable","status":"verified","next_action":"none"},
-    {"capability":"authentication","source":"published Wix site","outcome":"not applicable","status":"verified","next_action":"none"},
-    {"capability":"payments","source":"published Wix site","outcome":"not detected","status":"verified","next_action":"none"},
-    {"capability":"external providers and public endpoints","source":"published Wix site","outcome":"not detected","status":"verified","next_action":"none"},
-    {"capability":"cutover","source":"wctc.world","outcome":"defer","status":"pending","next_action":"publish and connect the existing domain when approved"},
-    {"capability":"verification","source":"Lovable preview","outcome":"rebuild","status":"pending","next_action":"verify routes, navigation, desktop, and mobile presentation"}
+    {
+      "capability": "site pages and navigation",
+      "source": "published Wix site",
+      "outcome": "rebuild",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "content and imagery",
+      "source": "published Wix site and uploaded images",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "contact",
+      "source": "published Wix site",
+      "outcome": "preserve",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "database records",
+      "source": "published Wix site",
+      "outcome": "not applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "authentication",
+      "source": "published Wix site",
+      "outcome": "not applicable",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "payments",
+      "source": "published Wix site",
+      "outcome": "not detected",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "external providers and public endpoints",
+      "source": "published Wix site",
+      "outcome": "not detected",
+      "status": "verified",
+      "next_action": "none"
+    },
+    {
+      "capability": "cutover",
+      "source": "wctc.world",
+      "outcome": "defer",
+      "status": "pending",
+      "next_action": "publish and connect the existing domain when approved"
+    },
+    {
+      "capability": "verification",
+      "source": "Lovable preview",
+      "outcome": "rebuild",
+      "status": "verified",
+      "next_action": "none"
+    }
   ]
 }
