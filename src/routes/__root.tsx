@@ -81,6 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "WCTC" },
       { name: "description", content: "World Collaborative for Transformative Community." },
       { name: "author", content: "World Collaborative for Transformative Community" },
+      { name: "google-site-verification", content: "6bIkA5LSVSYlKWr8BwZizB9xxXd7Z251Eff_nUpGpsw" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
