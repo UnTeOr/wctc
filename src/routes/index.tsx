@@ -33,7 +33,7 @@ function HomePage() {
       <div className="absolute inset-0 bg-hero-wash" />
       <div className="relative mx-auto flex min-h-[calc(100vh-5rem)] max-w-7xl items-center px-5 py-20 lg:px-10">
         <div className="max-w-3xl animate-rise">
-          <p className="text-xs font-bold uppercase tracking-[0.22em] text-gold">Established 2006 · 501(c)(3)</p>
+          <p className="text-xs font-bold uppercase tracking-[0.22em] text-gold">Established 2016 · 501(c)(3)</p>
           <h1 className="mt-5 font-display text-5xl leading-[0.98] font-semibold sm:text-7xl lg:text-8xl">Ideas grow stronger in community.</h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-forest-soft sm:text-xl">We connect people, resources, and practical support to help social enterprises meet the challenges of the 21st century.</p>
           <div className="mt-9 flex flex-wrap gap-3">
