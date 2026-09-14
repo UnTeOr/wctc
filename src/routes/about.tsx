@@ -15,7 +15,7 @@ export const Route = createFileRoute("/about")({
 
 function AboutPage() {
   return <>
-    <PageIntro eyebrow="About WCTC" title="Change moves at the speed of trust." copy="We bring people and networks together to share resources, strengthen local leadership, and respond to the challenges facing our communities." image={forest.url} imageAlt="Sunlight filtering through a thriving forest" />
+    <PageIntro eyebrow="About WCTC" title="About the World Collaborative for Transformative Community" copy="We bring people and networks together to share resources, strengthen local leadership, and respond to the challenges facing our communities." image={forest.url} imageAlt="Sunlight filtering through a thriving forest" />
     <section className="px-5 py-20 lg:px-10 lg:py-28"><div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-[0.8fr_1.2fr]">
       <SectionHeading eyebrow="Our mission">Community is our most renewable resource.</SectionHeading>
       <div className="space-y-6 text-lg leading-8 text-muted-foreground"><p>We are a group of individuals dedicated to making a difference by using existing networks to share resources. Our goal is to give community leaders more time to serve—and less time worrying about where support will come from.</p><p>When dispersed movements come together for the hardest challenges facing our planet and civilization, meaningful change can happen quickly.</p><p>Following a strategic initiative in 2015, Community LIFE Network began a spin-off process. The World Collaborative for Transformative Community was created in 2016 and received its 501(c)(3) IRS tax determination letter in 2017.</p></div>
