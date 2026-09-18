@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Check, Mail, Search, Users, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { PageIntro, SectionHeading } from "@/components/site-shell";
-import collaboration from "@/assets/wctc-collaboration.png.asset.json";
+import collaboration from "@/assets/wctc-collaboration-clean.png.asset.json";
 
 export const Route = createFileRoute("/sponsorship")({ head: () => ({ meta: [
   { title: "Fiscal Sponsorship | WCTC" }, { name: "description", content: "Fiscal sponsorship for social enterprises and community ideas — learn about WCTC eligibility, review, and orientation." }, { property: "og:title", content: "Fiscal Sponsorship | WCTC" }, { property: "og:description", content: "Fiscal sponsorship for social enterprises and community ideas." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" },

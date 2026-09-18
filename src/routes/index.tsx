@@ -4,7 +4,7 @@ import { ArrowRight, Building2, Handshake, Network } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { SectionHeading, TextLink } from "@/components/site-shell";
 import seedlings from "@/assets/wctc-seedlings.png.asset.json";
-import collaboration from "@/assets/wctc-collaboration.png.asset.json";
+import collaboration from "@/assets/wctc-collaboration-clean.png.asset.json";
 import growth from "@/assets/wctc-growth.png.asset.json";
 import world from "@/assets/wctc-world.png.asset.json";
 
