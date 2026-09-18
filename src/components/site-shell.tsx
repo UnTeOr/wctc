@@ -97,6 +97,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.16em] text-gold">Mail</p>
             <p className="mt-4 text-sm leading-6 text-forest-muted">PO Box 20175<br />Stanford, CA 94309</p>
+            <p className="mt-3 text-sm text-forest-muted">EIN: 82-0892822</p>
           </div>
         </div>
         <div className="border-t border-forest-line px-5 py-5 text-center text-xs text-forest-muted">
