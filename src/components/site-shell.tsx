@@ -101,7 +101,7 @@ export function SiteShell({ children }: { children: ReactNode }) {
           </div>
         </div>
         <div className="border-t border-forest-line px-5 py-5 text-center text-xs text-forest-muted">
-          © 2026 World Collaborative for Transformative Community · A spin-off of Community Life Network Inc.
+          © 2026 World Collaborative for Transformative Community WC.TC, a 501(c)(3) nonprofit public charity organization.
         </div>
       </footer>
     </div>
